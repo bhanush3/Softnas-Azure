@@ -1,9 +1,9 @@
 # Create a SoftNAS Cloud Virtual Machine with NFS/CIFS Enabled
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fjimyjohny%2Fazure-quickstart-templates%2Fmaster%2Fsoftnas-cloud%2Fazuredeploy.json" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fjimyjohny%2FSoftnas-Azure%2Fmaster%2Fazuredeploy.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
-<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fjimyjohny%2Fazure-quickstart-templates%2Fmaster%2Fsoftnas-cloud%2Fazuredeploy.json" target="_blank">
+<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fjimyjohny%2FSoftnas-Azure%2Fmaster%2Fazuredeploy.json" target="_blank">
     <img src="http://armviz.io/visualizebutton.png"/>
 </a>
 

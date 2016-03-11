@@ -180,7 +180,7 @@
         "autoUpgradeMinorVersion": true,
         "settings": {
           "fileUris": [
-            "https://raw.githubusercontent.com/jimyjohny/azure-quickstart-templates/master/softnas-cloud/softnas_configure_pool.sh"
+            "https://raw.githubusercontent.com/jimyjohny/Softnas-Azure/master/softnas_configure_pool.sh"
           ]
         },
         "protectedSettings": {
