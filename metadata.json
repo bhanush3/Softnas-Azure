@@ -1,0 +1,8 @@
+{
+  "itemDisplayName": "Create a VM from SoftNAS Cloud",
+  "description": "This template allows you to create a SoftNAS Cloud VM with NFS, CIFS enabled",
+  "summary": "Create a VM from a SoftNAS Cloud Image",
+  "githubUsername": "jimyjohny",
+  "dateUpdated": "2016-03-09"
+}
+
