@@ -3,6 +3,7 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "adminPassword": {
+      "type": "securestring",
       "minLength": 8,
       "metadata": {
         "description": "Enter Password for the Virtual Machine. Password must meet the following conditions.<br>
