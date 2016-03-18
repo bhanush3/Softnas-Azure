@@ -11,8 +11,8 @@ This template allows you to create a SoftNAS Cloud Virtual Machine from a specif
 
 NOTE: Before you can use a marketplace image from an API, you must enable the image for programmatic use. In the Azure portal, find the marketplace image (Softnas BYOL ) that you want to use and then click Want to deploy programmatically, Get Started ->. Enter any required information and then click Save.
 
-Password must meet the following conditions:
-1 - Minimum Legth Required is 8 characters.
-2 - Atleast one captial letter is required.
-3 - Atleast one small letter is required.
+Password must meet the following conditions:<br>
+1 - Minimum Legth Required is 8 characters.<br>
+2 - Atleast one captial letter is required.<br>
+3 - Atleast one small letter is required.<br>
 4 - Atleast one digit is required.
