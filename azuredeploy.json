@@ -3,9 +3,13 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "adminPassword": {
-      "type": "securestring",
+      "minLenth": "8",
       "metadata": {
-        "description": "Password for the Virtual Machine."
+        "description": "Enter Password for the Virtual Machine. Password must meet the following conditions.<br>
+Minimum Legth Required is 8 characters.<br>
+Atleast one captial letter is required.<br>
+Atleast one small letter is required.<br>
+Atleast one digit is required."
       }
     }
   },
