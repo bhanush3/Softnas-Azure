@@ -4,6 +4,11 @@ function softnas_configure()
 {
 
 echo "Sript execution started - `date`" > /tmp/cftemplate.txt
+/var/www/softnas/scripts/firstinit.sh
+service httpd restart
+# workaround of apache first time boot 500 internal error 
+wget --no-check-certificate -O - https://localhost/softnas/ > /dev/null 2>&1
+wget --no-check-certificate -O - https://localhost/softnas/ > /dev/null 2>&1
 
 USERN=softnas
 PASSW=$1
