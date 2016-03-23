@@ -197,11 +197,11 @@ Atleast one digit is required."
   "outputs": {
     "VMName": {
       "type": "string",
-      "value": "[parameters('vmName')]"
+      "value": "[variables('vmName')]"
     },
     "SoftNAS_IP": {
       "type": "string",
-      "value": "[reference(concat(variables('vmName'),'-cf')).ipAddress]"
+      "value": "[reference(concat('Microsoft.Network/publicIPAddresses/'))]"
     }
   }
 }
