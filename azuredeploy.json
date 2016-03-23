@@ -199,9 +199,9 @@ Atleast one digit is required."
       "type": "string",
       "value": "[variables('vmName')]"
     },
-    "SoftNAS_IP": {
+    "UserName": {
       "type": "string",
-      "value": "[reference('Microsoft.Network/publicIPAddresses/')]"
+      "value": "[variables('adminUsername')]"
     }
   }
 }
