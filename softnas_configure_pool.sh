@@ -23,7 +23,7 @@ $APICMD parted_command add_partition /dev/sdc
 $APICMD createpool /dev/sdc $POOLNAME 0 on -t
 $APICMD createvolume vol_name=$VOLNAME pool=$POOLNAME vol_type=filesystem provisioning=thin exportNFS=on shareCIFS=on dedup=on enable_snapshot=on schedule_name=Default hourlysnaps=5 dailysnaps=10 weeklysnaps=0
 
-$APICMD createvolume vol_name=softnas_iscsi pool=$POOLNAME vol_type=blockdevice provisioning=thin shareISCS=on
+#$APICMD createvolume vol_name=softnas_iscsi pool=$POOLNAME vol_type=blockdevice provisioning=thin shareISCS=on
 
 echo "Sript execution completed - `date`" >> /tmp/cftemplate.txt
 

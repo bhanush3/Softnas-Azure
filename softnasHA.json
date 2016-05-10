@@ -286,11 +286,34 @@
         "autoUpgradeMinorVersion": true,
         "settings": {
           "fileUris": [
-            "https://softnas.com/software/azure_template/softnas_configure_pool.sh"
+            "https://raw.githubusercontent.com/jimyjohny/Softnas-Azure/master/softnas_configure_pool.sh"
           ]
         },
         "protectedSettings": {
           "commandToExecute": "[concat('sh softnas_configure_pool.sh ', parameters('adminPassword'))]"
+        }
+      }
+    },
+    {
+      "type": "Microsoft.Compute/virtualMachines/extensions",
+      "name": "[concat(variables('vmName2'),'/newuserscript')]",
+      "apiVersion": "[variables('apiVersion')]",
+      "location": "[variables('location')]",
+      "dependsOn": [
+        "[concat('Microsoft.Compute/virtualMachines/', variables('vmName2'))]"
+      ],
+      "properties": {
+        "publisher": "Microsoft.OSTCExtensions",
+        "type": "CustomScriptForLinux",
+        "typeHandlerVersion": "1.4",
+        "autoUpgradeMinorVersion": true,
+        "settings": {
+          "fileUris": [
+            "https://raw.githubusercontent.com/jimyjohny/Softnas-Azure/master/softnas_configure_pool2.sh"
+          ]
+        },
+        "protectedSettings": {
+          "commandToExecute": "[concat('sh softnas_configure_pool2.sh ', parameters('adminPassword'))]"
         }
       }
     }
