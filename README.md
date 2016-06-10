@@ -6,6 +6,12 @@
 <a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fjimyjohny%2FSoftnas-Azure%2Fmaster%2Fazuredeploy.json" target="_blank">
     <img src="http://armviz.io/visualizebutton.png"/>
 </a>
+<br>
+
+# Deploy SoftNAS HA
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fjimyjohny%2FSoftnas-Azure%2Fmaster%2FsoftnasHA.json" target="_blank">
+    <img src="http://azuredeploy.net/deploybutton.png"/>
+</a>
 
 This template allows you to create a SoftNAS Cloud Virtual Machine from a specified image. It also attaches one empty data disk and share it using NFS/CIFS. This template also deploys a Storage Account, Virtual Network, Public IP addresses and a Network Interface.
 
