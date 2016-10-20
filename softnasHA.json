@@ -19,7 +19,7 @@
     "imagePublisher": "softnas",
     "imageOffer": "softnas-cloud",
     "imageSKU": "standard_byol",
-    "imageVersion": "3.4.8",
+    "imageVersion": "3.4.9",
     "OSDiskName": "osdiskforsoftnas",
     "OSDiskName2": "osdisk2forsoftnas",
     "nicName": "SoftNASNic",
